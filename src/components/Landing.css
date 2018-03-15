@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Permanent-Marker');
+
+.landing {
+  position: relative;
+  min-height: 800px;
+  background-image: url(./mic1.jpeg);
+  height: 100%;
+}
+
+
+
+.hero-title {
+  font-family: 'Permanent-Marker', cursive;
+}
+
+.point {
+  font-family: 'Lato', sans-serif;
+}
+
+.point:first-child {
+
+}
+
+.point:nth-child(2) {
+
+}
+
+.point:last-child {
+
+}

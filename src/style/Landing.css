@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.selling-points {
+  display: grid;
+  grid-template: auto / repeat(3, 1fr);
+  min-height: 700px;
+  background-image: url(./images/mic1.jpeg);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  grid-gap: 5px;
+}
+
+.point-title {
+  font-size: 40px;
+}
+
+.point-description {
+  font-size: 20px;
+}

@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
 body {
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  padding: 20px;
+  background-size: cover;
+  background-image: url('./bg.jpg');
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+button {
+  background-color: aqua;
+  border-color: #e33984;
+  opacity: 0.6;
+  border-radius: 20px;
 }
