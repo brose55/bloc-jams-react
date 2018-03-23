@@ -1,4 +1,16 @@
-.library {
-  display: block;
-  text-align: center;
+.library-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.description-container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.art {
+  width: auto;
 }

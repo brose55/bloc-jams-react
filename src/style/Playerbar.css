@@ -1,4 +1,54 @@
-.player-bar {
+.pb-container {
   display: grid;
-  grid-template: auto / repeat(3, 1fr);
+  grid-template: auto, 8vw / repeat(12, 1fr);
+}
+
+.time {
+  grid-column: 2 / 10;
+  justify-self: stretch;
+  font-size: 0.8rem;
+}
+
+.buttons {
+  grid-column:  5 / 7;
+  display: flex;
+
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+#play-pause {
+  font-size: 2rem;
+}
+
+.volume {
+  grid-column: 11 / 12;
+  font-size: 0.8rem;
+}
+
+.seek-bar {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 0.1rem;
+  outline: none;
+  border-radius: 5px;
+}
+
+.seek-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: #e33984;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #e33984;
+  cursor: pointer;
 }

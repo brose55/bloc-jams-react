@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <header className="wrapper">
+          <header>
             <div className="head">
               <div className="App-Logo"><Link to='/'><img src={Img} className="App-logo" /></Link></div>
               <div className="hero-title"><h1 className="hero-title">Turn the music up!</h1></div>
