@@ -12,7 +12,7 @@ class App extends Component {
       <div className="App">
           <header>
             <div className="head">
-              <div className="App-Logo"><Link to='/'><img src={Img} className="App-logo" /></Link></div>
+              <div className="App-Logo"><Link to='/'><img src={Img} className="App-logo" alt="Bloc Jams logo" /></Link></div>
               <div className="hero-title"><h1 className="hero-title">Turn the music up!</h1></div>
               <div className="nav"><nav>
                 <ul>
